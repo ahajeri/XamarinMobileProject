@@ -1,0 +1,72 @@
+<StudentBody xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<School>School of Fine Art</School>
+<Students>
+ <Student>
+<FullName>smile1</FullName>
+<FirstName>Sandeep</FirstName>
+<MiddleName>Be Happy and Smile-1</MiddleName>
+<LastName>Sat, 26 Nov 2016 20:15:01</LastName>
+<Sex>Male</Sex>
+<PhotoFilename>
+http://icons.iconarchive.com/icons/artdesigner/emoticons-2/128/too-much-icon.png
+</PhotoFilename>
+<GradePointAverage>3.55</GradePointAverage>
+</Student>
+<Student>
+<FullName>smile2</FullName>
+<FirstName>Sara</FirstName>
+<MiddleName>Be Happy and Smile-2</MiddleName>
+<LastName>Sun, 27 Nov 2016</LastName>
+<Sex>Female</Sex>
+<PhotoFilename>
+https://lh3.googleusercontent.com/-tRz_LVcdETI/AAAAAAAAAAI/AAAAAAAAAAA/80_FGuT3vaM/photo.jpg
+</PhotoFilename>
+<GradePointAverage>3.2</GradePointAverage>
+</Student>
+<Student>
+<FullName>smile3</FullName>
+<FirstName>Sharon</FirstName>
+<MiddleName>Be Happy and Smile-3</MiddleName>
+<LastName>Sat, 26 Nov 2016</LastName>
+<Sex>Female</Sex>
+<PhotoFilename>
+http://i.imgur.com/0AljDRZ.png
+</PhotoFilename>
+<GradePointAverage>3.29</GradePointAverage>
+</Student>
+<Student>
+<FullName>smile4</FullName>
+<FirstName>Shir</FirstName>
+<MiddleName>Be Happy and Smile-4</MiddleName>
+<LastName>Fri, 25 Nov 2016</LastName>
+<Sex>Female</Sex>
+<PhotoFilename>
+http://icongal.com/gallery/image/67760/love_valentines_day_smiley.png
+</PhotoFilename>
+<GradePointAverage>3.27</GradePointAverage>
+</Student>
+<Student>
+<FullName>smile5</FullName>
+<FirstName>Thomas</FirstName>
+<MiddleName>Be Happy and Smile-5</MiddleName>
+<LastName>Thu, 24 Nov 2016</LastName>
+<Sex>Male</Sex>
+<PhotoFilename>
+http://icongal.com/gallery/image/67764/blue_emoticon_28_128.png
+</PhotoFilename>
+<GradePointAverage>2.08</GradePointAverage>
+</Student>
+<Student>
+<FullName>smile6</FullName>
+<FirstName>Tom</FirstName>
+<MiddleName>Be Happy and Smile-6</MiddleName>
+<LastName>Wed, 23 Nov 2016</LastName>
+<Sex>Male</Sex>
+<PhotoFilename>
+http://www.sherv.net/cm/emoticons/blue-face/feeling-sleepy-smiley-emoticon.png
+</PhotoFilename>
+<GradePointAverage>1.4</GradePointAverage>
+</Student>
+
+</Students>
+</StudentBody>

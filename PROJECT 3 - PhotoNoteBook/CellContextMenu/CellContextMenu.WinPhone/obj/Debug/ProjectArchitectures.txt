@@ -1,0 +1,3 @@
+C:\Users\Vikram\Documents\Visual Studio 2015\Projects\Hajeri.Akshata.PJ3\CellContextMenu\CellContextMenu.WinPhone\PhotoNotebookApp.WinPhone.csproj;neutral
+C:\Users\Vikram\Documents\Visual Studio 2015\Projects\Hajeri.Akshata.PJ3\CellContextMenu\CellContextMenu\PhotoNotebookApp.csproj;neutral
+C:\Users\Vikram\Documents\Visual Studio 2015\Projects\Libraries\SchoolOfFineArt\SchoolOfFineArt\SchoolOfFineArt.csproj;neutral

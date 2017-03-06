@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CellContextMenu.DetailPage">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness" iOS="20, 40, 20, 20" Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
+  </ContentPage.Padding>
+  <ContentPage.Content>
+    <ScrollView>
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+      <Label Text="Detail Page"  FontSize="Medium" HorizontalOptions="Center" />
+      <Label x:Name="detailLabel"  FontSize="Micro" HorizontalOptions="Center" TextColor="Aqua"/>
+      <Label></Label>
+      <StackLayout                    VerticalOptions="CenterAndExpand" >
+        <Entry x:Name="fileName" Placeholder="Name" Completed="OnCompleted"></Entry>
+         <Entry x:Name="time" Placeholder="Time" Completed="OnCompleted1"></Entry>
+        <Entry x:Name="detail" Placeholder="Detail" Completed="OnCompleted3"></Entry>
+         <Entry x:Name="url" Placeholder="Url PNG Image" Completed="OnCompleted2"></Entry>
+        <Button x:Name="CancelButton" Clicked="OnButtonClicked" Text="Dismiss" />
+      </StackLayout>
+    </StackLayout>
+      </ScrollView>
+      
+  
+  </ContentPage.Content>
+</ContentPage>

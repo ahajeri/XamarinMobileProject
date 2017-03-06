@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CellContextMenu.HomePage">
+
+  <Label x:Name="projectTitle" Text="PROJECT 3 - Photo Notebook"
+              FontSize="Medium"
+              FontAttributes="Bold"
+              HorizontalTextAlignment="Center" />
+  <Switch x:Name="switchTog" Toggled="OnSwitchToggled" IsEnabled="true"  HorizontalOptions="Center" WidthRequest = "200"/>
+  <Stepper x:Name="stepper"  Maximum="60"   ValueChanged="OnStepperValueChanged" BindingContext="{x:Reference Name=slider}"
+           Value="{Binding Path=Value}" Increment="1" HorizontalOptions="Center" WidthRequest = "200"/>
+  <Slider x:Name="slider" ValueChanged="OnSliderValueChanged" Minimum="0" Maximum="60" VerticalOptions="CenterAndExpand" BindingContext="{x:Reference Name=stepper}"
+           Value="{Binding Path=Value}"/>
+  <Label x:Name="timmerlabel" Text="Timmer Value="  FontSize="Medium" HorizontalOptions="Center"/>
+  <Entry x:Name="entryNum" Keyboard="Numeric" Completed="Entry_Completed" Placeholder="1" WidthRequest = "100"/>
+  <ActivityIndicator x:Name="activityIndicator" />
+  <Image x:Name="image1"
+         HorizontalOptions="Center"
+         VerticalOptions="CenterAndExpand" PropertyChanged="OnImagePropertyChanged"/>
+
+  <Button  x:Name="butNav" Text="Image List View Page" Clicked="OnbutNavClicked" ></Button>
+</ContentPage>
