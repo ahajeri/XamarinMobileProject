@@ -1,0 +1,1 @@
+C:\Users\Vikram\Documents\Visual Studio 2015\Projects\AppButton\AppButton\AppButton.Windows\SimplePalette.Windows.csproj;neutral

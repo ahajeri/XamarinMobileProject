@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppButton.HomePage" >
+  
+  <StackLayout VerticalOptions="Center"  HorizontalOptions="Center">
+    <Label  VerticalOptions="Center" Text ="PROJECT-1-Simple Palette" FontSize="20" FontAttributes="Bold"/>
+    <Label  VerticalOptions="End" Text ="RED"/>
+    <StackLayout  Orientation="Horizontal">
+    <Button x:Name ="RedAdd" StyleId ="RedAdd" Clicked ="OnButtonClicked" Text ="+"  />
+    <Button x:Name ="RedSub" StyleId ="RedSub" Clicked ="OnButtonClicked" Text ="-"  IsEnabled = "false"/>
+    <Label x:Name ="redLabel" VerticalOptions="EndAndExpand" Text ="R"  WidthRequest="100" HeightRequest="50" FontSize="20"/>
+  </StackLayout>
+
+    <Label x:Name ="Green" VerticalOptions="End" Text ="GREEN"/>
+    
+  <StackLayout  Orientation="Horizontal">
+    <Button x:Name ="GreenAdd" StyleId ="GreenAdd" Clicked ="OnButtonClicked" Text ="+"/>
+    <Button x:Name ="GreenSub" StyleId ="GreenSub" Clicked ="OnButtonClicked" Text ="-" IsEnabled = "false"/>
+    <Label x:Name ="greenLabel" VerticalOptions="EndAndExpand" Text ="G"  WidthRequest="100" HeightRequest="50" FontSize="20" />
+  </StackLayout>
+
+    <Label x:Name ="Blue" VerticalOptions="End" Text ="BLUE"/>
+    
+  <StackLayout  Orientation="Horizontal">
+    <Button x:Name ="BlueAdd" StyleId ="BlueAdd" Clicked ="OnButtonClicked" Text ="+" />
+    <Button x:Name ="BlueSub" StyleId ="BlueSub" Clicked ="OnButtonClicked" Text ="-" IsEnabled = "false"/>
+    <Label x:Name ="blueLabel" VerticalOptions="EndAndExpand" Text ="B"  WidthRequest="100" HeightRequest="50" FontSize="20"/> 
+  </StackLayout>
+    <Label/>
+    <Label x:Name ="ColorLabel" VerticalOptions="EndAndExpand"   Text =" Display Color" WidthRequest="100" HeightRequest="50" FontSize="20" FontAttributes="Bold"/>
+  <Label x:Name ="ColorValue" VerticalOptions="Center" Text ="RGB and HSL Color Value" FontSize="20" FontAttributes="Bold"/>
+  </StackLayout>
+  
+</ContentPage>
